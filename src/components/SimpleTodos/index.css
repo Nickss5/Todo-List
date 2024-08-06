@@ -1,0 +1,149 @@
+.todo-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f8f9f9;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #adc178;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .todos-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+
+.heading {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-weight: 500;
+  }
+}
+
+.head {
+  font-size: 14px;
+  font-family: 'serif';
+  font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 20px;
+  }
+}
+
+.search-container {
+  background-color: white;
+  width: 80%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 60%;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Add-button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 11px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  animation: pulse 1.5s infinite;
+}
+
+@media screen and (min-width: 768px) {
+  .Add-button {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+.error-message {
+  font-size: 14px;
+  font-family: 'serif';
+  font-style: italic;
+}
+@media screen and (min-width: 768px) {
+  .error-message {
+    font-size: 20px;
+  }
+}
+
+.list-container {
+  background-color: #adc178;
+  width: 100%;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+add.image {
+  background-color: transparent;
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+
